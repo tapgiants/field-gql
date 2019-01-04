@@ -1,3 +1,3 @@
-import React from 'react';
+import FieldGQL from './FieldGQL';
 
-export default () => <div>TEST ME!</div>
+export default FieldGQL;
