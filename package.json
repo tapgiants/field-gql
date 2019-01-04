@@ -1,0 +1,37 @@
+{
+  "name": "@tapgiants/field-gql",
+  "version": "1.0.0",
+  "description": "FieldGQL uses GraphQL query in order to load the initial data from a server",
+  "main": "build/index.js",
+  "repository": "https://github.com/tapgiants/field-gql.git",
+  "author": "Tap Giants",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch --mode development",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-react": "^7.0.0",
+    "@tapgiants/form": "^1.0.8",
+    "apollo-boost": "^0.1.23",
+    "babel-loader": "^8.0.4",
+    "graphql": "^14.0.2",
+    "react": "^16.7.0",
+    "react-apollo": "^2.3.3",
+    "react-dom": "^16.7.0",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  },
+  "peerDependencies": {
+    "@tapgiants/form": "^1.0.8",
+    "apollo-boost": "^0.1.23",
+    "graphql": "^14.0.2",
+    "react": "^16.7.0",
+    "react-apollo": "^2.3.3",
+    "react-dom": "^16.7.0"
+  }
+}
