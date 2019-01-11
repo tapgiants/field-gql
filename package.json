@@ -1,6 +1,6 @@
 {
   "name": "@tapgiants/field-gql",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "FieldGQL uses GraphQL query in order to load the initial data from a server",
   "main": "build/index.js",
   "repository": "https://github.com/tapgiants/field-gql.git",

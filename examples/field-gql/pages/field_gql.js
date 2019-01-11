@@ -1,7 +1,7 @@
 import React from 'react';
+import gql from 'graphql-tag';
 import { ApolloWrapper } from '@tapgiants/graphql';
 import FieldGQL from '@tapgiants/field-gql';
-import gql from 'graphql-tag';
 
 const INDUSTRIES = gql`
   query {
